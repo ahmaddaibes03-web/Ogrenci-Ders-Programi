@@ -1,32 +1,52 @@
-# 03-Ogrenci-Ders-Programi — Expo SDK 58
+# Öğrenci Ders Programı
 
-React Native + Expo Router + JavaScript (JSX).
+## Proje Hakkında
 
-## Çalıştırma
+Bu proje, Mobil Programlama dersi kapsamında React Native ve Expo Router kullanılarak geliştirilmiş bir mobil uygulamadır.
 
-Node.js 22.13+ gerekir.
+Uygulamanın amacı, öğrencilerin haftalık ders programlarını görüntüleyebilmesi ve seçilen dersin detaylarına ulaşabilmesidir.
+
+## Kullanılan Teknolojiler
+
+- React Native
+- Expo Router
+- JavaScript (JSX)
+
+## Uygulama Özellikleri
+
+- Haftalık derslerin listelenmesi
+- En az 4 dersin görüntülenmesi
+- CourseCard bileşeni ile ders kartlarının oluşturulması
+- Seçilen dersin detay sayfasına geçiş
+- Ders adı, gün, saat, sınıf ve öğretim elemanı bilgilerinin görüntülenmesi
+- Geri butonu ile ders listesine dönüş
+- Geçersiz ders ID'si için uyarı mesajı
+
+## Projenin Çalıştırılması
 
 ```bash
 npm install
-npx expo install --fix
-npx expo-doctor
-npx expo start -c
+npx expo start
 ```
 
-Bu proje Expo SDK 58 için ayrı olarak düzenlenmiştir. SDK 54 node_modules ve package-lock.json dosyalarını bu klasöre taşımayın.
+Uygulama, Expo Go üzerinden QR kod okutularak çalıştırılabilir.
 
-Doktor föyündeki ekranları, tekrar kullanılabilir bileşenleri ve dinamik rotaları içerir. Test ekran görüntülerini kendi cihazınızda alın; TEST_RAPORU.md dosyasını gerçek sonuçlarla doldurun.
+## Testler
 
-## GitHub
-GitHub'da boş bir depo oluşturun (README / .gitignore eklemeyin), sonra:
+Uygulama çalıştırıldıktan sonra aşağıdaki işlemler test edilmelidir:
 
-```bash
-git init
-git add .
-git commit -m "Expo SDK 58 uygulamasi"
-git branch -M main
-git remote add origin https://github.com/ahmaddaibes03-web/03-Ogrenci-Ders-Programi.git
-git push -u origin main
-```
+- Ders listesinin görüntülenmesi
+- Bir dersin detay ekranına geçiş
+- Geri butonunun çalışması
+- Farklı derslerin detaylarının doğru gösterilmesi
+- Geçersiz ders ID'si için uyarı gösterilmesi
 
-Expo SDK 58 ve React 19.3.0 sürümleri kullanılır.
+## Ekran Görüntüleri
+
+## Yapay Zekâ Kullanımı
+
+Yapay zekâdan React Native bileşenlerinin kullanımı, Expo Router navigasyonu ve kodların düzenlenmesi konusunda destek alınmıştır.
+
+## Geliştirme Önerisi
+
+Gelecekte uygulamaya yeni ders ekleme ve ders bilgilerini düzenleme özellikleri eklenebilir.
