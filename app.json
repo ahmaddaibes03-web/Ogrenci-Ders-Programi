@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Öğrenci Ders Programı",
+    "slug": "ogrenci-ders-programi",
+    "scheme": "dersprogrami58",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
